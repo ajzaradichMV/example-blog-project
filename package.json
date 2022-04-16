@@ -1,0 +1,22 @@
+{
+  "name": "blog-project",
+  "version": "1.0.0",
+  "description": "blog project for node.js learnings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajzaradichMV/example-blog-project.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajzaradichMV/example-blog-project/issues"
+  },
+  "homepage": "https://github.com/ajzaradichMV/example-blog-project#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
