@@ -7,7 +7,7 @@ const ejs = require('ejs');
 app.set('view engine', 'ejs');
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/my_database', {useNewUrlParser: true});
+mongoose.connect('mongodb://localhost/my_database:27017', {useNewUrlParser: true});
 
 app.listen(5000, ()=> {
     console.log('App listening on port 5000');
